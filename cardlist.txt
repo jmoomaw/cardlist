@@ -40,4 +40,6 @@ $title, $up, $down, $left, $right, $power, $resistance, $income, $attribute1, $a
 "Orbital Mind Control Lasers", "^", "", ">", ">", "4/2", "5", "0", "Communist", "", "", "", "", "On their turn, owner can add, remove, or", "<i>reverse</i> an alignment of any one other group in play;", "change lasts for that turn only."
 "Video Games", "", "v", "", "<", "2", "3", "7", "", "", "", "", "", "+3 for <i>direct control</i> of Convenience Stores."
 "Bribery", "<b>Special</b>", "", "", "", "", "", "", "", "", "", "", "", "Play this card during your turn to automatically", "take control of any one uncontrolled group.", "Playing this card counts as an action"
+"Furries", "", "", "", "<", "0", "2", "2", "Weird", "Peaceful"
+
 
