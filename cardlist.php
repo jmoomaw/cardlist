@@ -22,25 +22,8 @@ foreach($lines as $line)
     $found = true;
     echo "<p>";
     $data = str_getcsv($line);
-    $card = "-<p>-<p>-<p>-<p><table><tr><td></td><td></td><td><center>".$data[1]."</cent
-er></td><td> </td><td></td></tr><tr><td></td><td></td><th><center>".$data[0]."</center><
-/th><td></td><td></td></tr><tr><td></td><td></td><td><center>".$data[13]."</center></td>
-<td></td><td></td></tr><tr><td></td><td></td><td><center>".$data[14]."</center></td><td>>
-</td><td></td></tr><tr><td>".$data[3]."</td><td></td><td><center>".$data[15]."</center><<
-/td><td></td><td>".$data[4]."</td></tr><tr><td></td><td>Power: ".$data[5]."</td><td><cenn
-ter>".$data[16]."</center></td><td>".$data[8]."</td><td></td></tr><tr><td></td><td>Resiss
-tance: ".$data[6]."</td><td><center>".$data[17]."</center></td><td>".$data[9]."</td><td>>
-</td></tr><tr><td></td><td>Income: ".$data[7]."</td><td><center>".$data[18]."</center><//
-td><td>".$data[10]."</td><td></td></tr><tr><td></td><td></td><td><center>".$data[19]."<//
-center></td><td>".$data[11]."</td><td></td></tr><tr><td></td><td></td><td><center>".$datt
-a[20]."</center></td><td>".$data[12]."</td><td></td></tr><tr><td></td><td></td><td><centt
-er>".$data[21]."</center></td><td></td><td></td></tr><tr><td></td><td></td><td><center>""
-.$data[22]."</center></td><td></td><td></td></tr><tr><td></td><td></td><td><center>".$daa
-ta[23]."</center></td><td></td><td></td></tr><tr><td></td><td></td><td><center>".$data[22
-4]."</center></td><td></td><td></td></tr><tr><td></td><td></td><td><center>".$data[2]."<<
-/center></td><td></td><td></td></tr></table>";
-//    $body = "<body><p><p><p><form method=\"post\" action=\"\"><input type=\"text\" namm
-e=\"value\"><input type=\"submit\"></form></body>";
+    $card = "-<p>-<p>-<p>-<p><table><tr><td></td><td></td><td><center>&nbsp".$data[1]."&nbsp</center></td><td> </td><td></td></tr><tr><td></td><td></td><th><center>&nbsp".$data[0]."&nbsp</center></th><td></td><td></td></tr><tr><td></td><td></td><td><center>&nbsp".$data[13]."&nbsp</center></td><td></td><td></td></tr><tr><td></td><td></td><td><center>&nbsp".$data[14]."&nbsp</center></td><td></td><td></td></tr><tr><td>".$data[3]."&nbsp&nbsp</td><td></td><td><center>&nbsp".$data[15]."&nbsp</center></td><td></td><td>".$data[4]."&nbsp&nbsp</td></tr><tr><td></td><td>Power: ".$data[5]."&nbsp&nbsp</td><td><center>&nbsp".$data[16]."&nbsp</center></td><td>".$data[8]."&nbsp&nbsp</td><td></td></tr><tr><td></td><td>Resistance: ".$data[6]."&nbsp&nbsp</td><td><center>&nbsp".$data[17]."&nbsp</center></td><td>".$data[9]."&nbsp&nbsp</td><td></td></tr><tr><td></td><td>Income: ".$data[7]."&nbsp&nbsp</td><td><center>&nbsp".$data[18]."&nbsp</center></td><td>".$data[10]."&nbsp&nbsp</td><td></td></tr><tr><td></td><td></td><td><center>&nbsp".$data[19]."&nbsp</center></td><td>".$data[11]."&nbsp&nbsp</td><td></td></tr><tr><td></td><td></td><td><center>&nbsp".$data[20]."&nbsp</center></td><td>".$data[12]."&nbsp&nbsp</td><td></td></tr><tr><td></td><td></td><td><center>".$data[21]."</center></td><td></td><td></td></tr><tr><td></td><td></td><td><center>".$data[22]."</center></td><td></td><td></td></tr><tr><td></td><td></td><td><center>".$data[23]."</center></td><td></td><td></td></tr><tr><td></td><td></td><td><center>".$data[24]."</center></td><td></td><td></td></tr><tr><td></td><td></td><td><center>&nbsp".$data[2]."&nbsp</center></td><td></td><td></td></tr></table>";
+//    $body = "<body><p><p><p><form method=\"post\" action=\"\"><input type=\"text\" name=\"value\"><input type=\"submit\"></form></body>";
     echo $card;
    }
 }
